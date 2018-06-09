@@ -14,6 +14,7 @@
 		54F8CBE120CB475D00118193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F8CBDF20CB475D00118193 /* LaunchScreen.storyboard */; };
 		54F8CBEC20CB475D00118193 /* Master_ScoresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8CBEB20CB475D00118193 /* Master_ScoresTests.swift */; };
 		54F8CBF720CB475D00118193 /* Master_ScoresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8CBF620CB475D00118193 /* Master_ScoresUITests.swift */; };
+		54F8CC0520CB8B0B00118193 /* Master in Resources */ = {isa = PBXBuildFile; fileRef = 54F8CC0420CB8B0B00118193 /* Master */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		54F8CBF220CB475D00118193 /* Master ScoresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Master ScoresUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F8CBF620CB475D00118193 /* Master_ScoresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master_ScoresUITests.swift; sourceTree = "<group>"; };
 		54F8CBF820CB475D00118193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F8CC0420CB8B0B00118193 /* Master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Master; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				54F8CBD620CB475D00118193 /* AppDelegate.swift */,
 				54F8CBD820CB475D00118193 /* ViewController.swift */,
 				54F8CBDA20CB475D00118193 /* Main.storyboard */,
+				54F8CC0420CB8B0B00118193 /* Master */,
 				54F8CBDD20CB475D00118193 /* Assets.xcassets */,
 				54F8CBDF20CB475D00118193 /* LaunchScreen.storyboard */,
 				54F8CBE220CB475D00118193 /* Info.plist */,
@@ -234,6 +237,7 @@
 			files = (
 				54F8CBE120CB475D00118193 /* LaunchScreen.storyboard in Resources */,
 				54F8CBDE20CB475D00118193 /* Assets.xcassets in Resources */,
+				54F8CC0520CB8B0B00118193 /* Master in Resources */,
 				54F8CBDC20CB475D00118193 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FDTCRD4BVY;
 				INFOPLIST_FILE = "Master Scores/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Master-Scores.Master-Scores";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FDTCRD4BVY;
 				INFOPLIST_FILE = "Master Scores/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Master-Scores.Master-Scores";
 				PRODUCT_NAME = "$(TARGET_NAME)";
