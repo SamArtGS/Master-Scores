@@ -8,7 +8,7 @@ class ViewController: UIViewController {
         if idschool.text! == "123"{
             
         }else{
-        }
+        print("HH")}
     }
     
     override func viewDidLoad() {
