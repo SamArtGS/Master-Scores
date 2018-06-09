@@ -8,7 +8,6 @@ class ViewController: UIViewController {
         if idschool.text! == "123"{
             
         }else{
-            
         }
     }
     
