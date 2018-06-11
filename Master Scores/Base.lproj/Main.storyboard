@@ -42,7 +42,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Entrar"/>
                                 <connections>
-                                    <action selector="enter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jxe-3w-kja"/>
+                                    <action selector="enter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XUn-bf-fuE"/>
                                     <segue destination="7fM-zc-3yw" kind="show" id="2M9-Sq-fUF"/>
                                 </connections>
                             </button>

@@ -1,0 +1,6 @@
+framework module Pods_Master_ScoresUITests {
+  umbrella header "Pods-Master ScoresUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
