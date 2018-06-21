@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5489D08E20D85AD00054C856 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5489D08D20D85AD00054C856 /* SingUpViewController.swift */; };
 		54E00AB320CF0AA3004D2B78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54E00AB220CF0AA3004D2B78 /* GoogleService-Info.plist */; };
 		54F8CBD720CB475D00118193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8CBD620CB475D00118193 /* AppDelegate.swift */; };
 		54F8CBD920CB475D00118193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F8CBD820CB475D00118193 /* ViewController.swift */; };
@@ -18,7 +19,7 @@
 		54F8CC0520CB8B0B00118193 /* Master in Resources */ = {isa = PBXBuildFile; fileRef = 54F8CC0420CB8B0B00118193 /* Master */; };
 		5F3E693A8D574E8B37F8AC83 /* Pods_Master_ScoresUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEBF7A4E2E2941F568D7A70 /* Pods_Master_ScoresUITests.framework */; };
 		73148604CD839C69719A54AB /* Pods_Master_ScoresTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F21407AB4FC088CCE1ABF8 /* Pods_Master_ScoresTests.framework */; };
-		E486762361CB41C71D24FA4B /* Pods_Master_Scores.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C823BDDD604137127EF6A5 /* Pods_Master_Scores.framework */; };
+		E486762361CB41C71D24FA4B /* Pods_Master_Scores.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C823BDDD604137127EF6A5 /* Pods_Master_Scores.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		19F637B112DFB99797BAF576 /* Pods-Master ScoresUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Master ScoresUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Master ScoresUITests/Pods-Master ScoresUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1AC5AEAF11693B29B7ADA2E2 /* Pods-Master ScoresTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Master ScoresTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Master ScoresTests/Pods-Master ScoresTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5489D08D20D85AD00054C856 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 		54E00AB220CF0AA3004D2B78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		54F8CBD320CB475D00118193 /* Master Scores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Master Scores.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F8CBD620CB475D00118193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				54F8CBD620CB475D00118193 /* AppDelegate.swift */,
 				54F8CBD820CB475D00118193 /* ViewController.swift */,
+				5489D08D20D85AD00054C856 /* SingUpViewController.swift */,
 				54F8CBDA20CB475D00118193 /* Main.storyboard */,
 				54F8CC0420CB8B0B00118193 /* Master */,
 				54F8CBDD20CB475D00118193 /* Assets.xcassets */,
@@ -390,6 +393,7 @@
 			files = (
 				54F8CBD920CB475D00118193 /* ViewController.swift in Sources */,
 				54F8CBD720CB475D00118193 /* AppDelegate.swift in Sources */,
+				5489D08E20D85AD00054C856 /* SingUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

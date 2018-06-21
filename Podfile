@@ -6,11 +6,16 @@ target 'Master Scores' do
   use_frameworks!
 
   # Pods for Master Scores
+    pod 'Firebase/Auth'
+    pod 'Google/SignIn'
+    pod 'Firebase/Database'
+    pod 'Firebase/Storage'
     pod 'Firebase/Core'
     target 'Master ScoresTests' do
     inherit! :search_paths
-    # Pods for testing
+    # Pods for testing'
     pod 'Firebase/Core'
+    
   end
 
   target 'Master ScoresUITests' do
